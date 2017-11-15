@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel='stylesheet' href='./main.css'/>
+  </head>
+
+  <body>
+    <div class='wrap'>
+      <div class='header'>
+        <h1 class='headline'>To do list</h1>
+        <button id='add' class='btn add-todo-btn'>
+          Add ToDo
+        </button>
+        <br>
+        <textarea class='note-todo'></textarea>
+      </div>
+      <div class='contents'>
+        <div class='todo'>
+          <span>ToDo</span>
+          <div class='card'>
+            <p class='todo-content'>
+              Sample todo
+            </p>
+            <button class='s-btn finish-btn'>
+              finish
+            </button>
+          </div>
+        </div>
+        <div class='finish'>
+          <span>Finish</span>
+          <div class='card'>
+            <p class='todo-content'>
+              Sample finished todo
+            </p>
+            <button class='s-btn finish-btn'>
+              checkout
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src='./main.js'></script>
+  </body>
+</html>

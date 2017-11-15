@@ -1,0 +1,12 @@
+{
+  "name": "only-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "http-server"
+  },
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}

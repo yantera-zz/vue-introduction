@@ -1,0 +1,84 @@
+body {
+  background-color: #222;
+  color: white;
+}
+
+.wrap {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.todo .headline {
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 15px 10px 15px;
+  font-size: 16px;
+  border-style: none;
+  border-radius: 6px;
+}
+.btn:hover {
+  opacity: .7;
+}
+.s-btn {
+  padding: 5px 10px 5px 10px;
+  font-size: 12px;
+  border-style: none;
+  border-radius: 6px;
+}
+
+.add-todo-btn {
+  background-color: green;
+  color: white;
+}
+
+.finish-btn {
+  background-color: #222;
+  color: white;
+  position: absolute;
+  bottom: 3px;
+  right: 5px;
+}
+
+.todo,.finish {
+  width: 400px;
+  display: inline-block;
+  float: left;
+}
+
+.card {
+  width: 350px;
+  height: 150px;
+  float: left;
+  background-color: #ccc;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.contents {
+  margin-top: 20px;
+}
+
+.note-todo {
+  margin-top: 15px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+textarea.note-todo {
+  margin: 5px;
+  width: 100%;
+  height: 60px;
+}
+
+.todo-content {
+  width: 95%;
+  height: 95%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  color: black;
+}
